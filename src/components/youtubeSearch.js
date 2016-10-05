@@ -12,7 +12,7 @@ export default class YoutubeSearch extends React.Component {
     searchAction = (evt) => {
         var finalSearchKey = encodeURIComponent(evt.target.value);
         var urlAPI = 'https://www.googleapis.com/youtube/v3/search?q=';
-        var urlKey = '&key=YouTube_Key&maxResults=18&part=snippet';
+        var urlKey = '&key=AIzaSyA1vtVYDO90p1awEUdAIaJbzbp3QPsDJ90&maxResults=18&part=snippet';
         var url = urlAPI + finalSearchKey + urlKey;
         var reactThis = this;
 
