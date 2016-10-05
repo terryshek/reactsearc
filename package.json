@@ -7,7 +7,7 @@
   "author": "Leonardo Couto",
   "license": "MIT",
   "scripts": {
-    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors -w",
     "start": "node app.js"
   },
   "repository": {
@@ -22,9 +22,11 @@
     "javascript"
   ],
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
     "express": "^4.13.4",
     "react": "^0.14.8",
-    "react-dom": "^0.14.8"
+    "react-dom": "^0.14.8",
+    "xhr": "^2.2.2"
   },
   "devDependencies": {
     "babel": "^6.5.2",

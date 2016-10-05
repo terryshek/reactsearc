@@ -1,3 +1,10 @@
-h1 {
-  color: blue;
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+$project_Fonts: Helvetica, sans-serif;
+$project_MainColor: #333333;
+
+body{
+font-family: $project_Fonts;
+color: $project_MainColor ;
 }
